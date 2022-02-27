@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <math.h>
 
-#define F_ZERO 0xF0
-#define F_A 0xFA
-#define F_5 0xF5
+#define F_ZERO 0xF0 // 1111 0000
+#define F_A 0xFA // 1111 1010
+#define F_5 0xF5 // 1111 0101
 
 unsigned char get_xor() {
   return F_ZERO ^ F_A ^ F_5;
